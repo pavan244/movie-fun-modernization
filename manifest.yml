@@ -1,0 +1,9 @@
+---
+applications:
+- name: moviefun
+  path: build/libs/moviefun-1.1.0-SNAPSHOT.war
+  routes:
+  - route: pavan-jonathan-moviefun.apps.pikes.pal.pivotal.io
+  services:
+  - movies-mysql
+  - photo-storage
